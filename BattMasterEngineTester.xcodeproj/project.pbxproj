@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848D537618ACFF620007BB8A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848D537518ACFF620007BB8A /* Cocoa.framework */; };
+		848D538018ACFF620007BB8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 848D537E18ACFF620007BB8A /* InfoPlist.strings */; };
+		848D538218ACFF620007BB8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D538118ACFF620007BB8A /* main.m */; };
+		848D538618ACFF620007BB8A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 848D538418ACFF620007BB8A /* Credits.rtf */; };
+		848D538918ACFF620007BB8A /* BTMDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D538818ACFF620007BB8A /* BTMDocument.m */; };
+		848D538C18ACFF620007BB8A /* BTMDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848D538A18ACFF620007BB8A /* BTMDocument.xib */; };
+		848D538F18ACFF620007BB8A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848D538D18ACFF620007BB8A /* MainMenu.xib */; };
+		848D539118ACFF620007BB8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848D539018ACFF620007BB8A /* Images.xcassets */; };
+		848D539818ACFF620007BB8A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848D539718ACFF620007BB8A /* XCTest.framework */; };
+		848D539918ACFF620007BB8A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848D537518ACFF620007BB8A /* Cocoa.framework */; };
+		848D53A118ACFF620007BB8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 848D539F18ACFF620007BB8A /* InfoPlist.strings */; };
+		848D53A318ACFF620007BB8A /* BattMasterEngineTesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D53A218ACFF620007BB8A /* BattMasterEngineTesterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		848D539A18ACFF620007BB8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848D536A18ACFF610007BB8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848D537118ACFF620007BB8A;
+			remoteInfo = BattMasterEngineTester;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		848D537218ACFF620007BB8A /* BattMasterEngineTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattMasterEngineTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		848D537518ACFF620007BB8A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		848D537818ACFF620007BB8A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		848D537918ACFF620007BB8A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		848D537A18ACFF620007BB8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		848D537D18ACFF620007BB8A /* BattMasterEngineTester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BattMasterEngineTester-Info.plist"; sourceTree = "<group>"; };
+		848D537F18ACFF620007BB8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		848D538118ACFF620007BB8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		848D538318ACFF620007BB8A /* BattMasterEngineTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BattMasterEngineTester-Prefix.pch"; sourceTree = "<group>"; };
+		848D538518ACFF620007BB8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		848D538718ACFF620007BB8A /* BTMDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTMDocument.h; sourceTree = "<group>"; };
+		848D538818ACFF620007BB8A /* BTMDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTMDocument.m; sourceTree = "<group>"; };
+		848D538B18ACFF620007BB8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BTMDocument.xib; sourceTree = "<group>"; };
+		848D538E18ACFF620007BB8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		848D539018ACFF620007BB8A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		848D539618ACFF620007BB8A /* BattMasterEngineTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattMasterEngineTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		848D539718ACFF620007BB8A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		848D539E18ACFF620007BB8A /* BattMasterEngineTesterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BattMasterEngineTesterTests-Info.plist"; sourceTree = "<group>"; };
+		848D53A018ACFF620007BB8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		848D53A218ACFF620007BB8A /* BattMasterEngineTesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BattMasterEngineTesterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848D536F18ACFF620007BB8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848D537618ACFF620007BB8A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848D539318ACFF620007BB8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848D539918ACFF620007BB8A /* Cocoa.framework in Frameworks */,
+				848D539818ACFF620007BB8A /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848D536918ACFF610007BB8A = {
+			isa = PBXGroup;
+			children = (
+				848D537B18ACFF620007BB8A /* BattMasterEngineTester */,
+				848D539C18ACFF620007BB8A /* BattMasterEngineTesterTests */,
+				848D537418ACFF620007BB8A /* Frameworks */,
+				848D537318ACFF620007BB8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848D537318ACFF620007BB8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848D537218ACFF620007BB8A /* BattMasterEngineTester.app */,
+				848D539618ACFF620007BB8A /* BattMasterEngineTesterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848D537418ACFF620007BB8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				848D537518ACFF620007BB8A /* Cocoa.framework */,
+				848D539718ACFF620007BB8A /* XCTest.framework */,
+				848D537718ACFF620007BB8A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		848D537718ACFF620007BB8A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				848D537818ACFF620007BB8A /* AppKit.framework */,
+				848D537918ACFF620007BB8A /* CoreData.framework */,
+				848D537A18ACFF620007BB8A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		848D537B18ACFF620007BB8A /* BattMasterEngineTester */ = {
+			isa = PBXGroup;
+			children = (
+				848D538718ACFF620007BB8A /* BTMDocument.h */,
+				848D538818ACFF620007BB8A /* BTMDocument.m */,
+				848D538A18ACFF620007BB8A /* BTMDocument.xib */,
+				848D538D18ACFF620007BB8A /* MainMenu.xib */,
+				848D539018ACFF620007BB8A /* Images.xcassets */,
+				848D537C18ACFF620007BB8A /* Supporting Files */,
+			);
+			path = BattMasterEngineTester;
+			sourceTree = "<group>";
+		};
+		848D537C18ACFF620007BB8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				848D537D18ACFF620007BB8A /* BattMasterEngineTester-Info.plist */,
+				848D537E18ACFF620007BB8A /* InfoPlist.strings */,
+				848D538118ACFF620007BB8A /* main.m */,
+				848D538318ACFF620007BB8A /* BattMasterEngineTester-Prefix.pch */,
+				848D538418ACFF620007BB8A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		848D539C18ACFF620007BB8A /* BattMasterEngineTesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				848D53A218ACFF620007BB8A /* BattMasterEngineTesterTests.m */,
+				848D539D18ACFF620007BB8A /* Supporting Files */,
+			);
+			path = BattMasterEngineTesterTests;
+			sourceTree = "<group>";
+		};
+		848D539D18ACFF620007BB8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				848D539E18ACFF620007BB8A /* BattMasterEngineTesterTests-Info.plist */,
+				848D539F18ACFF620007BB8A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848D537118ACFF620007BB8A /* BattMasterEngineTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848D53A618ACFF620007BB8A /* Build configuration list for PBXNativeTarget "BattMasterEngineTester" */;
+			buildPhases = (
+				848D536E18ACFF620007BB8A /* Sources */,
+				848D536F18ACFF620007BB8A /* Frameworks */,
+				848D537018ACFF620007BB8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BattMasterEngineTester;
+			productName = BattMasterEngineTester;
+			productReference = 848D537218ACFF620007BB8A /* BattMasterEngineTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		848D539518ACFF620007BB8A /* BattMasterEngineTesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848D53A918ACFF620007BB8A /* Build configuration list for PBXNativeTarget "BattMasterEngineTesterTests" */;
+			buildPhases = (
+				848D539218ACFF620007BB8A /* Sources */,
+				848D539318ACFF620007BB8A /* Frameworks */,
+				848D539418ACFF620007BB8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848D539B18ACFF620007BB8A /* PBXTargetDependency */,
+			);
+			name = BattMasterEngineTesterTests;
+			productName = BattMasterEngineTesterTests;
+			productReference = 848D539618ACFF620007BB8A /* BattMasterEngineTesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848D536A18ACFF610007BB8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BTM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Dean;
+				TargetAttributes = {
+					848D539518ACFF620007BB8A = {
+						TestTargetID = 848D537118ACFF620007BB8A;
+					};
+				};
+			};
+			buildConfigurationList = 848D536D18ACFF610007BB8A /* Build configuration list for PBXProject "BattMasterEngineTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 848D536918ACFF610007BB8A;
+			productRefGroup = 848D537318ACFF620007BB8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848D537118ACFF620007BB8A /* BattMasterEngineTester */,
+				848D539518ACFF620007BB8A /* BattMasterEngineTesterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848D537018ACFF620007BB8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848D538018ACFF620007BB8A /* InfoPlist.strings in Resources */,
+				848D539118ACFF620007BB8A /* Images.xcassets in Resources */,
+				848D538C18ACFF620007BB8A /* BTMDocument.xib in Resources */,
+				848D538618ACFF620007BB8A /* Credits.rtf in Resources */,
+				848D538F18ACFF620007BB8A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848D539418ACFF620007BB8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848D53A118ACFF620007BB8A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848D536E18ACFF620007BB8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848D538918ACFF620007BB8A /* BTMDocument.m in Sources */,
+				848D538218ACFF620007BB8A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848D539218ACFF620007BB8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848D53A318ACFF620007BB8A /* BattMasterEngineTesterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		848D539B18ACFF620007BB8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848D537118ACFF620007BB8A /* BattMasterEngineTester */;
+			targetProxy = 848D539A18ACFF620007BB8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		848D537E18ACFF620007BB8A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848D537F18ACFF620007BB8A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		848D538418ACFF620007BB8A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848D538518ACFF620007BB8A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		848D538A18ACFF620007BB8A /* BTMDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848D538B18ACFF620007BB8A /* Base */,
+			);
+			name = BTMDocument.xib;
+			sourceTree = "<group>";
+		};
+		848D538D18ACFF620007BB8A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848D538E18ACFF620007BB8A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		848D539F18ACFF620007BB8A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848D53A018ACFF620007BB8A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		848D53A418ACFF620007BB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		848D53A518ACFF620007BB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		848D53A718ACFF620007BB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BattMasterEngineTester/BattMasterEngineTester-Prefix.pch";
+				INFOPLIST_FILE = "BattMasterEngineTester/BattMasterEngineTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		848D53A818ACFF620007BB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BattMasterEngineTester/BattMasterEngineTester-Prefix.pch";
+				INFOPLIST_FILE = "BattMasterEngineTester/BattMasterEngineTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		848D53AA18ACFF620007BB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BattMasterEngineTester.app/Contents/MacOS/BattMasterEngineTester";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BattMasterEngineTester/BattMasterEngineTester-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BattMasterEngineTesterTests/BattMasterEngineTesterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		848D53AB18ACFF620007BB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BattMasterEngineTester.app/Contents/MacOS/BattMasterEngineTester";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BattMasterEngineTester/BattMasterEngineTester-Prefix.pch";
+				INFOPLIST_FILE = "BattMasterEngineTesterTests/BattMasterEngineTesterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848D536D18ACFF610007BB8A /* Build configuration list for PBXProject "BattMasterEngineTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848D53A418ACFF620007BB8A /* Debug */,
+				848D53A518ACFF620007BB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848D53A618ACFF620007BB8A /* Build configuration list for PBXNativeTarget "BattMasterEngineTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848D53A718ACFF620007BB8A /* Debug */,
+				848D53A818ACFF620007BB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		848D53A918ACFF620007BB8A /* Build configuration list for PBXNativeTarget "BattMasterEngineTesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848D53AA18ACFF620007BB8A /* Debug */,
+				848D53AB18ACFF620007BB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 848D536A18ACFF610007BB8A /* Project object */;
+}
